@@ -1,1 +1,1 @@
-Understand the Scotch Yoke Mechanism and observe and calculate the displacement of slotted slider from different crank lengths and angle for various angular velocity
+The double slider-crank linkage has four links joined in a kinematic chain and consists of two revolute joints and two sliding or prismatic joints. Different mechanisms obtained by fixing different links of a kinematics chain are known as its inversions. Scotch yoke mechanism is one of the inversions of a double slider crank linkage. It can be used for converting rotary motion to linear motion and vice-versa.
