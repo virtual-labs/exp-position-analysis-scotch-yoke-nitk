@@ -1,39 +1,123 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "version": 2.0,
+    "questions": [
+      {
+        "question":"Measured from +X-axis what is the angular position of connecting rod when at a crank position of 30<sup>o</sup> the crank shaft is perpendicular to connecting rod ?",
+        "answers": {
+          "a": "150<sup>o</sup>",
+          "b": "60<sup>o</sup>",
+          "c": "160<sup>o</sup>",
+          "d": "120<sup>o</sup>"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "d",
+        "difficulty": ""
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "What is the max distance travelled by slider for a slider crank mechanism with crank length 10cm?",
+        "answers": {
+          "a": "20cm",
+          "b": "10cm",
+          "c": "5cm",
+          "d": "None of these"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      {
+        "question": "For crank radius 10cm what is the distance between extremes of the reciprocating part in scotch yoke mechanism?",
+        "answers": {
+          "a": "20",
+          "b": "10",
+          "c": "5",
+          "d": "None of These"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "Which of the following can not be a function representing output motion of scotch yoke mechanism (t is time)?",
+        "answers": {
+          "a": "sin t",
+          "b": "cos t",
+          "c": "tan t",
+          "d": "None of These"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": ""
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+      {
+        "question": "Scotch yoke mechanism follows SHM.",
+        "answers": {
+          "a": "false",
+          "b": "true"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "b",
+        "difficulty": ""
+      },
+      {
+        "question": "Which of the following can not be representing output motion of scotch yoke mechanism",
+        "answers": {
+          "a": "sin(t)",
+          "b": "sin(t+k)",
+          "c": "k+sin(t)",
+          "d": "All given options can be representing output motion of scotch yoke mechanism"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "d",
+        "difficulty": ""
+      },
+      {
+        "question": "Angular velocity of crank is equivalent to ",
+        "answers": {
+          "a": "phase lag of SHM",
+          "b": "amplitude of SHM",
+          "c": "frequency of oscillation in SHM",
+          "d": "None of These"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": ""
+      }
+    ]
+  }
+  

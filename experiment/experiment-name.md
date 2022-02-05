@@ -1,1 +1,1 @@
-## Experiment name
+## Position analysis of Scotch Yoke Mechanism
