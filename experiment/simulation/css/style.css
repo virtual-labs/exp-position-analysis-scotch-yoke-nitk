@@ -214,6 +214,10 @@ h1 {
 /* ************simulation*********** */
 
 /* canvas */
+.exp-title {
+  grid-column: 1/-1;
+  justify-self: center;
+}
 .canvas__div {
   width: 100%;
   border: 1px solid var(--clr-title-background);
@@ -231,32 +235,41 @@ h1 {
   display: flex;
   width: 100%;
   height: 420px;
+  flex-direction: column;
 }
 #canvas {
   border-left: 1px solid rgba(177, 176, 176, 0.855);
   width: 100%;
   height: 100%;
 }
+.comments {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
 div#commentboxleft {
+  /* grid-column: 1/-1; */
   flex: 1;
-  position: absolute;
+  /* position: absolute; */
 
-  top: 390px;
-  height: 65px;
-  width: 285px;
-  text-align: left;
+  /* top: 390px; */
+  /* height: 65px; */
+  /* width: 285px; */
+  /* text-align: left; */
+  justify-self: center;
   font-size: 15px;
   font-family: "Nunito", sans-serif;
 }
 
 div#commentboxright {
-  position: absolute;
+  justify-self: center;
+  /* position: absolute; */
 
-  top: 390px;
+  /* top: 390px; */
   height: 65px;
-  width: 285px;
-  text-align: right;
+  /* width: 285px; */
+  /* text-align: right; */
 
   font-family: "Nunito", sans-serif;
 }
