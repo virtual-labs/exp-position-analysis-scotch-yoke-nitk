@@ -243,9 +243,9 @@ function draw() {
   q = pointtrans(q, trans);
   ctx.save();
   ctx.lineWidth = 1;
-  ctx.font = "14px 'Nunito', sans-serif";
-  ctx.fillStyle = "#000000";
-  ctx.fillText("Position Analysis", 15, 15);
+  // ctx.font = "20px 'Nunito', sans-serif";
+  // ctx.fillStyle = "#000000";
+  // ctx.fillText("Position Analysis", 15, 35);
   ctx.restore();
   //ptx.push(p.xcoord);
   //pty.push(p.ycoord);
@@ -379,20 +379,20 @@ function graph(context) {
 // 0 : Single comment box, 1 : Left comment box, 2 : Right comment box
 function printcomment(commenttext, commentloc) {
   if (commentloc == 0) {
-    document.getElementById("commentboxright").style.visibility = "hidden";
-    document.getElementById("commentboxleft").style.width = "570px";
+    document.getElementById("commentboxright").style.display = "none";
+    // document.getElementById("commentboxleft").style.width = "570px";
     document.getElementById("commentboxleft").innerHTML = commenttext;
   } else if (commentloc == 1) {
-    document.getElementById("commentboxright").style.visibility = "visible";
-    document.getElementById("commentboxleft").style.width = "285px";
+    document.getElementById("commentboxright").style.display = "block";
+    // document.getElementById("commentboxleft").style.width = "285px";
     document.getElementById("commentboxleft").innerHTML = commenttext;
   } else if (commentloc == 2) {
-    document.getElementById("commentboxright").style.visibility = "visible";
-    document.getElementById("commentboxleft").style.width = "285px";
+    document.getElementById("commentboxright").style.display = "block";
+    // document.getElementById("commentboxleft").style.width = "285px";
     document.getElementById("commentboxright").innerHTML = commenttext;
   } else {
-    document.getElementById("commentboxright").style.visibility = "hidden";
-    document.getElementById("commentboxleft").style.width = "570px";
+    document.getElementById("commentboxright").style.display = "none";
+    // document.getElementById("commentboxleft").style.width = "570px";
     document.getElementById("commentboxleft").innerHTML =
       "<center>please report this issue to adityaraman@gmail.com</center>";
     // ignore use of deprecated tag <center> . Code is executed only if printcomment function receives inappropriate commentloc value
