@@ -19,6 +19,8 @@ plotgraph(pointx,pointy,canvas2Dcontext,array truncate limit,color of line,width
 locateincanvas(id,xco,yco)
 */
 //Custom defined class for Point (for coordinates in a system)
+
+
 function point(xcoord,ycoord,letter)
 {
 	this.xcoord = xcoord;
