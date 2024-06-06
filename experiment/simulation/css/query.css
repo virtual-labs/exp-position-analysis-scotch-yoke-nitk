@@ -17,11 +17,11 @@ em:current font size
     margin-left: 270px;
   }
   #commentboxleft {
-    /* left: 150px; */
+    left: 150px;
     font-size: 16px;
   }
   #commentboxright {
-    /* left: 405px; */
+    left: 405px;
     font-size: 16px;
   }
   #variables {
@@ -59,7 +59,7 @@ em:current font size
     display: block;
     width: 100%;
     height: 100%;
-    /* margin-left: 230px; */
+    margin-left: 230px;
   }
   .div__control img {
     width: 3rem;
@@ -67,12 +67,12 @@ em:current font size
   }
 
   #commentboxleft {
-    /* left: 120px; */
+    left: 120px;
     font-size: 16px;
   }
 
   #commentboxright {
-    /* left: 300px; */
+    left: 300px;
     font-size: 16px;
   }
   #variables {
@@ -180,17 +180,17 @@ em:current font size
     display: block;
     width: 100%;
     height: 100%;
-    /* margin-left: 35px; */
+    margin-left: 35px;
     border: none;
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
   #commentboxleft {
-    /* left: 40px; */
+    left: 40px;
     font-size: 16px;
   }
 
   #commentboxright {
-    /* left: 150px; */
+    left: 150px;
     font-size: 16px;
   }
   #variables {
@@ -218,7 +218,7 @@ em:current font size
   }
   .logo-div {
     width: 8.5rem;
-    /* padding: 0.8rem 0 0.8rem 3.3rem; */
+    padding: 0.8rem 0 0.8rem 3.3rem;
   }
   .main__task-div:nth-child(4) {
     margin-bottom: 6rem;
@@ -237,12 +237,12 @@ em:current font size
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
   #commentboxleft {
-    /* left: 50px; */
+    left: 50px;
     font-size: 16px;
   }
 
   #commentboxright {
-    /* left: 200px; */
+    left: 200px;
     font-size: 16px;
   }
   #variables {
@@ -255,19 +255,16 @@ em:current font size
 /* **************************** */
 @media (max-width: 34em) {
   .container {
-    /* padding: 0.5rem; */
+    padding: 0.5rem;
     gap: 1rem;
   }
   .title-div-container {
-    /* padding: 0.5rem 0.5rem 0rem 0.5rem; */
-  }
-  .logo-div {
-    width: 4rem;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
   }
   .title-div h1 {
-    /* padding: 0.2rem; */
+    padding: 0.2rem;
 
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     /* text-align: center; */
   }
   .div__control {
@@ -302,7 +299,7 @@ em:current font size
     display: block;
     width: 100%;
     height: 100%;
-    /* margin-left: 15px; */
+    margin-left: 15px;
     border: none;
     border-top: 1px solid rgba(177, 176, 176, 0.855);
     /* background-color: red; */
@@ -315,12 +312,12 @@ em:current font size
     font-size: 1rem;
   }
   #commentboxleft {
-    /* left: 10px; */
+    left: 10px;
     font-size: 16px;
   }
 
   #commentboxright {
-    /* left: 65px; */
+    left: 65px;
     font-size: 16px;
   }
   #variables {
@@ -335,9 +332,6 @@ em:current font size
   }
   .tool-list span {
     font-size: 1.3rem;
-  }
-  canvas {
-    width: 100%;
   }
 }
 /* 
