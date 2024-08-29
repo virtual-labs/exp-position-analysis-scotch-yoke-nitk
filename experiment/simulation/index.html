@@ -89,7 +89,7 @@
             ></a>
             <span>Variables</span>
           </li>
-          <li class="tool-list">
+          <li class="tool-list" title="Play/Pause">
             <img
               id="playpausebutton"
               onclick="simstate()"
@@ -99,7 +99,7 @@
             />
             <span class="playPause">Pause</span>
           </li>
-          <li class="tool-list">
+          <li class="tool-list" title="Rotate">
             <img
               id="rotationbutton"
               onclick="rotstate()"
@@ -109,7 +109,7 @@
             />
             <span class="">Rotate</span>
           </li>
-          <li class="tool-list">
+          <li class="tool-list" title="Graph">
             <img
               id="rotationbutton"
               onclick="checkGraph()"
@@ -128,7 +128,7 @@
             
             <div class="canvas__div">
             
-               
+              <div id="titleincanvas" class="titleincanvas">Position Analysis</div>
               <div id="canvas-container">
                 <canvas id="simscreen" height="430px" width="550px"class="canvas"></canvas>
                 <div id="commentboxleft"></div>

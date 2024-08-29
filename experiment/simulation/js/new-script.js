@@ -243,9 +243,9 @@ function draw() {
   q = pointtrans(q, trans);
   ctx.save();
   ctx.lineWidth = 1;
-  ctx.font = "14px 'Nunito', sans-serif";
+  ctx.font = "24px 'Nunito', sans-serif";
   ctx.fillStyle = "#000000";
-  ctx.fillText("Position Analysis", 15, 15);
+  // ctx.fillText("Position Analysis", 15, 25);
   ctx.restore();
   //ptx.push(p.xcoord);
   //pty.push(p.ycoord);
