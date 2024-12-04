@@ -9,26 +9,6 @@ em:current font size
 /* above 1200px (Smaller Desktops) */
 /* **************************** */
 
-@media (min-width: 1200px) {
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: 270px;
-  }
-  #commentboxleft {
-    left: 22px;
-    font-size: 16px;
-  }
-  #commentboxright {
-    left: 325px;
-    font-size: 16px;
-  }
-  #variables {
-    width: 200%;
-  }
-}
-
 /* **************************** */
 /* Below 1200px (Lanscape Tablets) */
 /* **************************** */
@@ -36,7 +16,7 @@ em:current font size
 @media (max-width: 75em) {
   body {
     width: 100%;
-    margin: unset;
+    margin: 0;
   }
   .title-div h1 {
     font-size: 2.5rem;
@@ -55,28 +35,10 @@ em:current font size
     width: 3rem;
     height: 3rem;
   }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: 230px;
-  }
+
   .div__control img {
     width: 3rem;
     height: 2.8rem;
-  }
-
-  #commentboxleft {
-    left: 120px;
-    font-size: 16px;
-  }
-
-  #commentboxright {
-    left: 300px;
-    font-size: 16px;
-  }
-  #variables {
-    width: 200%;
   }
 }
 
@@ -112,15 +74,10 @@ em:current font size
     justify-content: space-evenly;
     border-radius: 0;
     scroll-behavior: auto;
-    /* background: linear-gradient(
-      to bottom,
-      #f7c3a9da,
-      #c17a53da,
-      #c17a53da,
-      #c17a53da,
-      #c17a53da,
-      #311b10da
-    ); */
+    margin: 0;
+  }
+  .main {
+    grid-column: 1/-1;
   }
   .tool-menu {
     list-style: none;
@@ -145,25 +102,14 @@ em:current font size
   .main__task-div:nth-child(4) {
     margin-bottom: 6rem;
   }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    /* background-color: red; */
-  }
+
   .main-section {
     grid-template-columns: 1fr;
   }
   .canvas__div {
     grid-template-columns: 1fr;
   }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-top: 0px solid rgba(177, 176, 176, 0.855);
-  }
+
   #variables {
     width: 100%;
   }
@@ -178,26 +124,6 @@ em:current font size
   }
   .canvas__div {
     grid-template-columns: 1fr;
-  }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: 35px;
-    border: none;
-    border-top: 0px solid rgba(177, 176, 176, 0.855);
-  }
-  #commentboxleft {
-    left: 40px;
-    font-size: 16px;
-  }
-
-  #commentboxright {
-    left: 150px;
-    font-size: 16px;
-  }
-  #variables {
-    width: 100%;
   }
 }
 
@@ -232,14 +158,14 @@ em:current font size
   .cross-img {
     width: 60%;
   }
-  .canvas {
+  /* .canvas {
     display: block;
     width: 100%;
     height: 100%;
     border: none;
     border-top: 0px solid rgba(177, 176, 176, 0.855);
-  }
-  #commentboxleft {
+  } */
+  /* #commentboxleft {
     left: 50px;
     font-size: 16px;
   }
@@ -247,7 +173,7 @@ em:current font size
   #commentboxright {
     left: 200px;
     font-size: 16px;
-  }
+  } */
   #variables {
     width: 100%;
   }
@@ -257,13 +183,6 @@ em:current font size
 /* Below 540px (Smaller Tablets) */
 /* **************************** */
 @media (max-width: 34em) {
-  .container {
-    padding: 0.5rem;
-    gap: 1rem;
-  }
-  .title-div-container {
-    padding: 0.5rem 0.5rem 0rem 0.5rem;
-  }
   .title-div h1 {
     padding: 0.2rem;
 
@@ -302,7 +221,6 @@ em:current font size
     display: block;
     width: 100%;
     height: 100%;
-    margin-left: 15px;
     border: none;
     border-top: 0px solid rgba(177, 176, 176, 0.855);
     /* background-color: red; */
@@ -314,7 +232,7 @@ em:current font size
   .tooltip {
     font-size: 1rem;
   }
-  #commentboxleft {
+  /* #commentboxleft {
     left: 10px;
     font-size: 16px;
   }
@@ -322,7 +240,7 @@ em:current font size
   #commentboxright {
     left: 65px;
     font-size: 16px;
-  }
+  } */
   #variables {
     width: 100%;
   }

@@ -19,6 +19,7 @@
 html {
   font-size: 62.5%;
   font-family: "Nunito", sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -36,12 +37,12 @@ h3 {
 }
 
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.25rem;
   left: -5rem;
 }
 
 ::-moz-scrollbar {
-  width: 0.5rem;
+  width: 0.25rem;
   left: -5rem;
 }
 
