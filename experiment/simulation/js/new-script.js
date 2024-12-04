@@ -312,7 +312,7 @@ function dispyoke(context) {
 function checkGraph() {
   if (document.getElementById("graphPlot").checked == false) {
     document.getElementById("graphPlot").checked = true;
-    graph(context);
+    graph(ctx);
   } else {
     document.getElementById("graphPlot").checked = false;
   }
@@ -380,19 +380,19 @@ function graph(context) {
 function printcomment(commenttext, commentloc) {
   if (commentloc == 0) {
     document.getElementById("commentboxright").style.visibility = "hidden";
-    document.getElementById("commentboxleft").style.width = "570px";
+    // document.getElementById("commentboxleft").style.width = "570px";
     document.getElementById("commentboxleft").innerHTML = commenttext;
   } else if (commentloc == 1) {
     document.getElementById("commentboxright").style.visibility = "visible";
-    document.getElementById("commentboxleft").style.width = "285px";
+    // document.getElementById("commentboxleft").style.width = "285px";
     document.getElementById("commentboxleft").innerHTML = commenttext;
   } else if (commentloc == 2) {
     document.getElementById("commentboxright").style.visibility = "visible";
-    document.getElementById("commentboxleft").style.width = "285px";
+    // document.getElementById("commentboxleft").style.width = "285px";
     document.getElementById("commentboxright").innerHTML = commenttext;
   } else {
     document.getElementById("commentboxright").style.visibility = "hidden";
-    document.getElementById("commentboxleft").style.width = "570px";
+    // document.getElementById("commentboxleft").style.width = "570px";
     document.getElementById("commentboxleft").innerHTML =
       "<center>please report this issue to adityaraman@gmail.com</center>";
     // ignore use of deprecated tag <center> . Code is executed only if printcomment function receives inappropriate commentloc value
