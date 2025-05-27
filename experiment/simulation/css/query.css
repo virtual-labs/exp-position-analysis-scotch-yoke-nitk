@@ -109,10 +109,6 @@ em:current font size
   .canvas__div {
     grid-template-columns: 1fr;
   }
-
-  #variables {
-    width: 100%;
-  }
 }
 
 /* **************************** */
@@ -174,9 +170,6 @@ em:current font size
     left: 200px;
     font-size: 16px;
   } */
-  #variables {
-    width: 100%;
-  }
 }
 
 /* **************************** */
@@ -241,9 +234,6 @@ em:current font size
     left: 65px;
     font-size: 16px;
   } */
-  #variables {
-    width: 100%;
-  }
 }
 
 @media (max-width: 27em) {
